@@ -1,4 +1,5 @@
 .App {
+  display: flex;
   text-align: center;
   background-color: #F8C8DC;
   border-style: outset;
