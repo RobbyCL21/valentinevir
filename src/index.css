@@ -6,6 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #F8C8DC;
   display: flex;
+  justify-content: center; /* Centers horizontally */
+  height: 100vh; /* Full viewport height */
 }
 
 code {
