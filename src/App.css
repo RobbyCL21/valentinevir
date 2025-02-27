@@ -1,7 +1,6 @@
 .container {
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
   height: 100vh; /* Full viewport height */
 }
 
@@ -13,6 +12,5 @@
   width: 600px;
   display: flex;
   justify-content: center; /* Center text inside */
-  align-items: center; /* Center text vertically */
   text-align: center;
 }
