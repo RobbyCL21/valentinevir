@@ -2,6 +2,8 @@
   text-align: center;
   background-color: #F8C8DC;
   border-style: outset;
+  border-radius: 35px;
   height: 40px;
   width: 600px;
+  justify-content: center;
 }
