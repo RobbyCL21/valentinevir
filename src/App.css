@@ -1,10 +1,18 @@
-.App {
+.container {
   display: flex;
-  text-align: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.App {
   background-color: #F8C8DC;
   border-style: outset;
   border-radius: 35px;
   height: 40px;
   width: 600px;
-  justify-content: center;
+  display: flex;
+  justify-content: center; /* Center text inside */
+  align-items: center; /* Center text vertically */
+  text-align: center;
 }
