@@ -1,9 +1,8 @@
-.body {
-  background-color: #F8C8DC;
-}
-
 .App {
   text-align: center;
+  background-color: #F8C8DC;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
