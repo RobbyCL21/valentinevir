@@ -10,3 +10,7 @@
   text-align: center; /* Centers text */
   font-size: 24px;
 }
+
+.DifferentPages {
+  display: flex;
+}
