@@ -55,7 +55,7 @@ button:hover {
 }
 
 .image {
-  width: 150px; /* Adjust width as needed */
+  width: 175px; /* Adjust width as needed */
   object-fit: cover; /* Ensures images don't get squished */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
