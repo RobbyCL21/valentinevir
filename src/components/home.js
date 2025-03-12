@@ -14,13 +14,13 @@ function Home() {
           <img src={loveletter} alt="Loveletter" className="loveletter" />
           <br></br>
 
-          <button className="loveletter-button"> Go to love letter </button>
+          <button className="loveletter-button"> <strong> Go to love letter </strong> </button>
         </div>
         <div className="findapairdiv">
           <img src={findapair} alt="find a pair" className="findapair" />
           <br></br>
           <Link to="/findapair">
-            <button> Go to find a pair </button>
+            <button> <strong>Go to find a pair</strong> </button>
           </Link>
         </div>
       </div>
