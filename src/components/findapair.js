@@ -14,13 +14,14 @@ import messi from '../images/messi_pic10.png';
 import rubiu from '../images/rubiu_pic14.png';
 import simba from '../images/simba_pic8.png.jpg';
 import spiderman from '../images/spiderman_pic15.png';
+import twd from '../images/twd_pic13.png';
 
 
 function FindAPair() {
   const imageList = [
     argentinaflag, cat, coco, ferrari, formula1,
     greys, invincible, ittakes2, leclerc, mate,
-    messi, rubiu, simba, spiderman
+    messi, rubiu, simba, spiderman, twd
   ];
   
   return (
