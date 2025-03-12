@@ -12,7 +12,7 @@ function App() {
       <div className="DifferentPages">
         <div className="loveletterdiv">
           <img src={loveletter} alt="Loveletter" className="loveletter" /><br></br>
-          <button> Go to love letter </button>
+          <button className="loveletter-button"> Go to love letter </button>
         </div>
         <div className="findapairdiv">
           <img src={findapair} alt="find a pair" className="findapair" />

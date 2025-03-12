@@ -20,10 +20,15 @@
   height: 200px;
   width: 300px;
   margin: 40px;
+  margin-bottom: 5px;
 }
 
 .findapair {
   height: 200px;
   width: 300px;
   margin: 40px;
+}
+
+.loveletter-button {
+  margin-left: 40px;
 }
