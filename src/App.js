@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./home";
-import FindAPair from "./findapair"; // Import your component
-import './App.css';
+import Home from "./components/home";
+import FindAPair from "./components/findapair"; // Import your component
+import './css/App.css';
 
 function App() {
   return (
