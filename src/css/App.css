@@ -43,43 +43,21 @@ button:hover {
   background-color: #993de0;
 }
 
-.game-board {
+.image-gallery {
   text-align: center;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  justify-content: center;
-  padding: 20px;
-}
-
-.card {
-  width: 100px;
-  height: 100px;
-  background: #f0f0f0;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  cursor: pointer;
+.images {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
 }
 
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+.image {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
 }
 
-.card.matched {
-  border: 2px solid green;
-}
-
-.card img[src="/images/card-back.png"] {
-  background: #d9534f;
-  border-radius: 10px;
-}
 
