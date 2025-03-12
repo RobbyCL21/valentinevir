@@ -1,23 +1,39 @@
 import '../css/App.css';
 import React, { useState, useEffect } from "react";
+import argentinaflag from '../images/argentinaflag_pic5.png';
+import cat from '../images/cat_pic7.png';
+import coco from '../images/coco_pic6.jpg';
+import ferrari from '../images/ferrari_pic2.png';
+import formula1 from '../images/formula1_pic1.png';
+import greys from '../images/greys_pic12.png';
+import invincible from '../images/invincible_pic11.png';
+import ittakes2 from '../images/ittakestwo_pic4.png';
+import leclerc from '../images/leclerc_pic3.png';
+import mate from '../images/mate_pic9.jpg';
+import messi from '../images/messi_pic10.png';
+import rubiu from '../images/rubiu_pic14.png';
+import simba from '../images/simba_pic8.png';
+import spiderman from '../images/spiderman_pic15.png';
+import cardBack from '../images/card-back.png'; // Back of the card
+
 
 function FindAPair() {
   // List of images (without folder paths)
   const imageNames = [
-    "argentinaflag_pic5.png",
-    "cat_pic7.png",
-    "coco_pic6.jpg",
-    "ferrari_pic2.png", // ✅ Fixed typo
-    "formula1_pic1.png",
-    "greys_pic12.png",
-    "invincible_pic11.png",
-    "ittakestwo_pic4.png",
-    "leclerc_pic3.png",
-    "mate_pic9.jpg",
-    "messi_pic10.png",
-    "rubiu_pic14.png",
-    "simba_pic8.png",
-    "spiderman_pic15.png",
+    argentinaflag,
+    cat,
+    coco,
+    ferrari,
+    formula1,
+    greys,
+    invincible,
+    ittakes2,
+    leclerc,
+    mate,
+    messi,
+    rubiu,
+    simba,
+    spiderman
   ];
 
   // Duplicate and shuffle images
