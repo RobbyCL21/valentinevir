@@ -12,8 +12,8 @@ function App() {
       <div className="DifferentPages">
         Here come the different pages
         <br></br>
-        <img src={loveletter} alt="Loveletter" />
-        <img src={findapair} alt="find a pair" />
+        <img src={loveletter} alt="Loveletter" className="loveletter" />
+        <img src={findapair} alt="find a pair" className="findapair" />
 
       </div>
     </>
