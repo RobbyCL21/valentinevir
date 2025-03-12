@@ -13,9 +13,11 @@
 
 .DifferentPages {
   display: flex;
+  margin-top: 50px;
 }
 
 .loveletter {
   height: 150px;
   width: 250px;
+  margin: 25px;
 }

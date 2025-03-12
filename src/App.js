@@ -10,11 +10,8 @@ function App() {
         Welcome to my personal love letter to my beloved Virginia
       </div>
       <div className="DifferentPages">
-        Here come the different pages
-        <br></br>
         <img src={loveletter} alt="Loveletter" className="loveletter" />
         <img src={findapair} alt="find a pair" className="findapair" />
-
       </div>
     </>
   );
