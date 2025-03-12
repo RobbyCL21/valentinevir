@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import argentinaflag from '../images/argentinaflag_pic5.png';
 import cat from '../images/cat_pic7.png.jpg';
 import coco from '../images/coco_pic6.jpg';
-import ferrari from '../images/ferrari_pic2.png';
+import ferrari from '../images/ferarri_pic2.png';
 import formula1 from '../images/formula1_pic1.png';
 import greys from '../images/greys_pic12.png';
 import invincible from '../images/invincible_pic11.png';
