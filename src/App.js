@@ -11,11 +11,15 @@ function App() {
       </div>
       <div className="DifferentPages">
         <div className="loveletterdiv">
-          <img src={loveletter} alt="Loveletter" className="loveletter" /><br></br>
+          <img src={loveletter} alt="Loveletter" className="loveletter" />
+          <br></br>
+
           <button className="loveletter-button"> Go to love letter </button>
         </div>
         <div className="findapairdiv">
           <img src={findapair} alt="find a pair" className="findapair" />
+          <br></br>
+          
           <button> Go to find a pair </button>
         </div>
       </div>
