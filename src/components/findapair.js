@@ -86,7 +86,7 @@ function FindAPair() {
             onClick={() => flipCard(index)}
           >
             {card.flipped || card.matched ? (
-              <img src={`/images/${card.img}`} alt="Memory card" />
+              <img src={`../images/${card.img}`} alt="Memory card" />
             ) : (
               <img src="/images/card-back.png" alt="Card back" />
             )}
