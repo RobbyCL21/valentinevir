@@ -38,3 +38,7 @@ button {
   background-color: #E0AAFF;
   border-radius: 25%;
 }
+
+button:hover {
+  background-color: white;
+}
