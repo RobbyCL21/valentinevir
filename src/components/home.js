@@ -1,5 +1,5 @@
-import loveletter from '../loveletter.png';
-import findapair from '../find a pair.png';
+import loveletter from '../images/loveletter.png';
+import findapair from '../images/find a pair.png';
 import { Link } from "react-router-dom";
 import '../css/App.css';
 
@@ -13,8 +13,9 @@ function Home() {
         <div className="loveletterdiv">
           <img src={loveletter} alt="Loveletter" className="loveletter" />
           <br></br>
-
-          <button className="loveletter-button"> <strong> Go to love letter </strong> </button>
+          <Link to="/loveletter">
+            <button className="loveletter-button"> <strong> Go to love letter </strong> </button>
+          </Link>
         </div>
         <div className="findapairdiv">
           <img src={findapair} alt="find a pair" className="findapair" />
